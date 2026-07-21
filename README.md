@@ -1,70 +1,79 @@
-# Getting Started with Create React App
+# Overview #
+AI_Summarizer is a tool designed to condense large volumes of text into clear, concise summaries. It leverages natural language processing and machine learning to identify key points, filter out redundancy, and present information in a digestible format. The system is adaptable, allowing summaries to be tailored for different audiences—whether academic, professional, or casual readers. By focusing on context and meaning rather than just keywords, AI_Summarizer ensures accuracy and relevance. It is widely used for research, news aggregation, and productivity, helping users save time while retaining essential insights. Ultimately, it transforms complex content into accessible knowledge.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+<img width="1920" height="1200" alt="Screenshot 2026-07-21 130449" src="https://github.com/user-attachments/assets/3d136a5b-f275-4725-a576-1db62443ab9d" />
 
-In the project directory, you can run:
+# Text and PDF
 
-### `npm start`
+<img width="1920" height="1200" alt="Screenshot 2026-07-18 215223" src="https://github.com/user-attachments/assets/c63ede34-d7ae-4eaa-912b-308287b40bbc" />
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+As you can see I have choosen the "Text" option in which  I have take the details of AI (Artificial Inteligence) and It concise the long text into the summary.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+<img width="1920" height="1200" alt="Screenshot 2026-07-21 123537" src="https://github.com/user-attachments/assets/f93636fb-b528-47ca-a6a7-10a8c9330e7d" />
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+In this I took a example of my college pdf which is a large text file of syllabus and summarizer summrise it in small 
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+# staring of python code in terminal 
+port:localport:3000/
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<img width="1920" height="1200" alt="Screenshot 2026-07-21 123002" src="https://github.com/user-attachments/assets/1c31024d-dd3b-4fc9-9542-1efd890e2240" />
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+# frontend file js 
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+<img width="1920" height="1200" alt="Screenshot 2026-07-21 123234" src="https://github.com/user-attachments/assets/5e0fa1ac-9f36-47f3-b2c8-473ac6b64eef" />
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+# backend python app.py file
 
-### `npm run build` fails to minify
+'API' from OPENROUTER
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+<img width="1920" height="1200" alt="Screenshot 2026-07-21 122930" src="https://github.com/user-attachments/assets/f67de149-0e5b-4cc9-8206-ac5d76d69807" />
+
+
+
+
+
+
+
+
+# Installation  & Setup
+
+
+
+ # Cone the repository
+  git clone 'https://github.com/vkanuj/Anuj_AI_Summarizer.git'
+
+  
+
+# Navigate to the project folder
+'cd Anuj_AI_Summarizer'
+
+
+
+# Install dependencies
+'npm install'
+
+
+
+# Run 
+ 'npm start' for frontend 
+ 'python app.py' fo backend
