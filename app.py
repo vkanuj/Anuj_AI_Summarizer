@@ -59,27 +59,6 @@ def summarize_pdf():
     summary = get_summary(text)
     return jsonify({"summary": summary})
 
-# @app.route('/summarize/youtube', methods=['POST'])
-# def summarize_youtube():
-#     data = request.get_json()
-#     url = data['url']
-    
-
-#     parsed_url=urlparse(url)
-#     video_id = None
-#     if "youtube.com" in parsed_url.netloc:
-#         video_id=parse_qs(parsed_url.query).get("v",[None])[0]
-#     elif "youtu.be" in parsed_url.netloc:
-#         video_id=parsed_url.path.lstrip("/")
-
-  
-#     try:
-#         transcript = YouTubeTranscriptApi.get_transcript(video_id)
-#         text = " ".join(t['text'] for t in transcript)
-    
-#     except Exception as e:
-#         return jsonify({"error":f"Transcript not available:{str(e)}"}),500
-     
      
 
 if __name__ == '__main__':
